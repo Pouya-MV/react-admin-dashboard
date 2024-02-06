@@ -1,0 +1,89 @@
+.main-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: max-content;
+}
+
+.main-left-content {
+    display: grid;
+    grid-template-rows: repeat(4, max-content);
+}
+.main-righr-content {
+    display: grid;
+    grid-template-rows: repeat(2, max-content);
+}
+
+.main-chart {
+    background-color: var(--boxbg);
+    margin: 5px 32px;
+    border-radius: 8px;
+    padding: 25px 20px 60px 20px;
+    height: 240px;
+}
+
+.main-chart-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-chart-title {
+    display: flex;
+    align-items: center;
+}
+
+.main-chart-title p {
+    font-size: 13.5px;
+    font-weight: bold;
+    color: var(--text);
+    padding-right: 6px;
+}
+
+.main-chart-icon {
+    font-size: 17px !important;
+    color: var(--text);
+}
+
+.main-chrt-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: none;
+    background: linear-gradient(to bottom right, var(--tealGra), var(--blueGra));
+    color: #fff;
+    font-size: 9.5px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.chrt-btn-icon {
+    font-size: 14px !important;
+    padding-left: 3px;
+}
+
+.main-table-box {
+    background-color: var(--boxbg);
+    border-radius: 8px;
+    margin: 5px 32px;
+    padding: 20px;
+}
+
+/* 
+---------------main costumer
+*/
+
+.main-costumer{
+    position: relative;
+    background-color: var(--boxbg);
+    margin: 10px 32px 10px 0 ;
+    border-radius: 8px;
+    height: 430px;
+}
+
+.main-analytics{
+    background-color: var(--boxbg);
+    margin: 5px 32px 5px 0;
+    border-radius: 8px;
+    padding: 20px;
+}

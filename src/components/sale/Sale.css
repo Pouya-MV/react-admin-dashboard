@@ -1,0 +1,67 @@
+.main-sale{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 5px 32px;
+}
+.main-sale-info{
+    background-color: var(--boxbg);
+    padding: 15px;
+    border-radius: 8px;
+    width: 200px;
+}
+.sale-price{
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.price-icon{
+    background-color: #1b7fe8;
+    width: 27px;
+    height: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+}
+.price-icon.red{
+    background-color: var(--pink);
+}
+.price-icon.green{
+    background-color: #73c242;
+}
+.price-txt{
+    padding-left: 10px;
+    font-size: 13.5px;
+    font-weight: bold;
+    color: var(--text);
+}
+.sale-caption{
+    font-size: 13px;
+    font-weight: bold;
+    color: var(--text);
+}
+.sale-disc-box{
+    display: flex;
+    align-items: center;
+    padding-top: 3px;
+}
+.sale-disc{
+    font-size: 10px;
+    color: #5d5d5d;
+    padding-top: 4px;
+}
+.sale-price-icon{
+    color: #fff;
+    font-size: 18px !important;
+}
+.sale-disc-icon{
+    font-size: 12px !important;
+    color: #4BB543;
+    border-radius: 50%;
+    padding: 2px;
+    margin-right: 5px;
+}
+.sale-disc-icon.red{
+    color: #ff0002;
+}

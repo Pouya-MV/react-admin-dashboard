@@ -1,0 +1,34 @@
+.home-container{
+    display: grid;
+    grid-template-rows: 75px max-content;
+}
+.home-topbar{
+    background-color: var(--boxbg);
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 75px;
+    left: 0;
+    margin-left: 200px;
+    z-index: 4;
+}
+.home-content{
+    margin-top: 75px;
+}
+/*
+------------dark background 
+*/
+
+.darkBg{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000a1;
+    z-index: 5;
+}
+.darkBg.open-bg{
+    display: block;
+}

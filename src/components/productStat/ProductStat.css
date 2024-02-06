@@ -1,0 +1,23 @@
+.product-stat-top{
+    display: flex;
+    align-items: center;
+    padding:  10px 5px;
+}
+.product-stat-top img{
+    width: 45px;
+}
+.product-stat-top p{
+    font-size: 12px;
+    color: var(--text);
+    font-weight: bold;
+}
+.product-stat-info-box{
+    padding: 5px 15px 25px 15px;
+}
+.product-stat-info{
+    display: flex;
+    justify-content: space-between;
+    font-size: 11px;
+    color: var(--text);
+    margin-top: 5px;
+}

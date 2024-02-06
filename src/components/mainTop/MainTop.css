@@ -1,0 +1,32 @@
+.main-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 23px 32px 10px 32px;
+}
+.top-title{
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--text);
+    padding-bottom: 7px;
+}
+.top-date{
+    font-size: 12px;
+    color: #5d5d5d;
+}
+.main-top-btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: none;
+    background: linear-gradient(to bottom right, var(--tealGra), var(--blueGra));
+    color: #fff;
+    font-size: 9.5px;
+    padding: 8px 10px;
+    border-radius: 5px;
+    width: 100px;
+    cursor: pointer;
+}
+.top-btn-icon{
+    font-size: 14px !important;
+}

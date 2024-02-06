@@ -1,0 +1,126 @@
+.sidbar {
+    position: fixed;
+    background-color: #16151c;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    padding: 20px 0px 20px 0px;
+    box-sizing: border-box;
+    transition: all .3s;
+    z-index: 5;
+}
+
+.sidbar-wrapper {
+    position: relative;
+    height: 100%;
+}
+
+/* 
+----------------logo style
+ */
+
+.logo-box {
+    padding: 10px 10px 25px 0px;
+    border-bottom: 1px solid #4b4b4b;
+    margin-left: 45px;
+    margin-right: 20px;
+}
+
+.logo {
+    color: #fff;
+    font-weight: bold;
+}
+
+.logo-caption {
+    color: #727272;
+    font-size: 10px;
+    padding-top: 4px;
+}
+
+/* 
+----------------menu style
+ */
+
+.sidbar-menu {
+    margin: 35px 0;
+}
+
+.sidbar-menu-link {
+    display: flex;
+    align-items: flex-end;
+    padding: 7px 10px 7px 45px;
+    color: var(--text);
+    font-size: 11.5px;
+    text-decoration: none;
+    transition: all .3s;
+    margin-bottom: 10px;
+}
+
+.sidbar-menu-link.active {
+    color: #fff;
+    font-weight: bold;
+    border-left: 3px solid;
+}
+
+.sidbar-menu-link:hover {
+    color: #ffffff;
+}
+
+.sidbar-menu-link span {
+    padding-left: 13px;
+}
+
+.sidbar-menu-icon {
+    font-size: 17px !important;
+}
+
+.sidbar-menu-title {
+    font-size: 9px;
+    padding-left: 45px;
+    color: var(--text);
+    padding-bottom: 10px;
+}
+
+.sidbar-update-box {
+    background: linear-gradient(to bottom right, var(--tealGra), var(--blueGra));
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+/* 
+----------------upgrade-box style
+ */
+
+.sidbar-update-title {
+    font-size: 12px;
+    color: #fff;
+    padding-top: 18px;
+}
+
+.sidbar-update-title span {
+    font-weight: bold;
+}
+
+.sidbar-update-txt {
+    font-size: 9px;
+    color: #fff;
+    margin-top: 5px;
+}
+
+.sidbar-update-btn {
+    border: none;
+    background-color: #fff;
+    border-radius: 8px;
+    margin: 11px 0;
+    padding: 5px 29px;
+    font-size: 8.5px;
+    font-weight: bold;
+    cursor: pointer;
+}

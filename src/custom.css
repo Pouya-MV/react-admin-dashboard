@@ -1,0 +1,30 @@
+@import "./reset.css";
+@import "./responsive.css";
+
+/* 
+@font-face {
+    font-family: Irans;
+  src: url(../fonts/IRANSansWeb.ttf);
+}
+*/
+
+:root {
+  --darkBlue: #1a1d27;
+  --boxbg: #2e2c3a;
+  --lightBlue: #30ccff;
+  --iconColor: #0ba8fb;
+  --blueGra: #0fadfe;
+  --tealGra: #41dcfe;
+  --pink: #f94c4f;
+  --text: #acacac;
+}
+
+body {
+  background-color: var(--darkBlue);
+}
+
+*,
+body,
+html {
+  font-family: Irans;
+}
